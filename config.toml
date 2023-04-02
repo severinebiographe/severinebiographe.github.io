@@ -1,0 +1,27 @@
+baseURL = 'http://example.org/'
+languageCode = 'fr-fr'
+title = 'Séverine Biographe'
+
+theme = 'anatole'
+
+
+[params]
+#title = "Séverine Biographe"
+author = "Séverine"
+#description = "Biographe & Ecrivain Public"
+profilePicture = "images/logo.png"
+fullPostContent = true
+
+customCss = ["css/custom.css"]
+
+# [[params.socialIcons]]
+# icon = "fab fa-linkedin"
+# title = "Linkedin"
+# url = "https://linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:contact@severinebiographe.fr"
+
+mainSections = []
